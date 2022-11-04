@@ -27,9 +27,23 @@ h1{
 }
 .casa{
     font-size:100px;
-    padding: 30px 60px 30px 60px;
+    padding: 30px 60px 25px 60px;
     border: 3px solid purple;
 }
 .casa:hover{
     background-color: pink;
+}
+#button{
+    text-align: center;
+    
+}
+button{
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+   background-color: plum;
+   border: 3px solid purple;
+}
+button:hover{
+    background-color: rgb(236, 111, 132);
 }
