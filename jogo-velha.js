@@ -12,30 +12,28 @@ function clicar(casa){
         jogador = "X" // E o proximo jogador será o X
     }     
        //ATENÇÃO!! É importante adicionar o this 
-
-    
 }
 
+    document.getElementById("c1").innerHTML = "" 
+    document.getElementById("c2").innerHTML = "" 
+    document.getElementById("c3").innerHTML = "" 
+    document.getElementById("c4").innerHTML = "" 
+    document.getElementById("c5").innerHTML = "" 
+    document.getElementById("c6").innerHTML = "" 
+    document.getElementById("c7").innerHTML = "" 
+    document.getElementById("c8").innerHTML = "" 
+    document.getElementById("c9").innerHTML = ""      
 
-    let casa1 =document.getElementById("c1")
-    let casa2 =document.getElementById("c2")
-    let casa3 =document.getElementById("c3")
-    let casa4 =document.getElementById("c4")
-    let casa5 =document.getElementById("c5")
-    let casa6 =document.getElementById("c6")
-    let casa7 =document.getElementById("c7")
-    let casa8 =document.getElementById("c8")
-    let casa9 =document.getElementById("c9")   
-
+  
 function reset(){
-    casa1.innerHTML = ""
-    casa2.innerHTML = ""
-    casa3.innerHTML = ""
-    casa4.innerHTML = ""
-    casa5.innerHTML = ""
-    casa6.innerHTML = ""
-    casa7.innerHTML = ""
-    casa8.innerHTML = ""
-    casa9.innerHTML = ""   
+    document.getElementById("c1").innerHTML = "" 
+    document.getElementById("c2").innerHTML = "" 
+    document.getElementById("c3").innerHTML = "" 
+    document.getElementById("c4").innerHTML = "" 
+    document.getElementById("c5").innerHTML = "" 
+    document.getElementById("c6").innerHTML = "" 
+    document.getElementById("c7").innerHTML = "" 
+    document.getElementById("c8").innerHTML = "" 
+    document.getElementById("c9").innerHTML = ""      
 }
 
